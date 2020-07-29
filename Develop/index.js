@@ -1,5 +1,4 @@
 const fs = require("fs");
-// const axios = require("axios"); not needed 
 const inquirer = require("inquirer");
 // const generateMarkdown = require("./utils/generateMarkdown.js");
 
