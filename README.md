@@ -1,16 +1,16 @@
-# README Generator
+# readme generator
 
 ## Description
-This is a simple readme file generator application created with node.
+It is an application that generates a simple readme file
 
 ## GitHub Name
-Abouelelas
+abouelelas
 
 ## Installation
-npm init, yarn install,and runs in terminal
+user needs to install packages in terminal such as, yarn and inquirer
 
 ## Instructions
-It will run in terminal after packages are installed
+user will run node index in terminal and answer prompted questions
 
 ## Issues
 none
@@ -19,4 +19,4 @@ none
 none
 
 
-# README Generator
+# readme generator

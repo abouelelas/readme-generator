@@ -2,7 +2,9 @@
 function createLicense(license) {
   if (license !== "None") {
     return (
-      ` return [![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(github, title)})`
+      ` return [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+      Mozilla)`
     )
     }
 }
