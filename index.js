@@ -51,7 +51,7 @@ const questions = [
  // THIS SHOULD BE USED FOR A BADGE. 
     {
         type: 'input',
-        message: 'What license would you like to use? (Ex: MIT, GPL 3.0) If you do not wish to use a license type "none" ',
+        message: 'What license badge would you like to use? (Ex: MIT, GPL 3.0) If you do not wish to use a license type "none" ',
         name: 'license',
      
     },

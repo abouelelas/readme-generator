@@ -2,10 +2,9 @@
 function createLicense(license) {
   if (license !== "None") {
     return (
-      `## License 
-      ${license}`
+      ` return [![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(github, title)})`
     )
-  }
+    }
 }
 
 // function to generate markdown for README
