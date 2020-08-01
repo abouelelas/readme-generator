@@ -7,10 +7,10 @@ This is an application that generates a readme file using node
 Abouelelas
 
 ## Installation
-User needs to install packages such as inquirer and yarn 
+User is required to install packages such as inquirer and yarn to run app
 
 ## Instructions
-User will need to run node index in terminal to deploy application and answer prompted questions
+User will be required to run node index.js in terminal
 
 ## Email
 abouelelas@gmail.com

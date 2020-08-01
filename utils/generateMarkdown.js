@@ -2,9 +2,9 @@
 function createLicense(license) {
   if (license !== "None") {
     return (
-      ` return [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+      ` return [# ${data.repoName} ![${data.repoName}](https://img.shields.io/github/license/${data.gitHubName}/${data.repoName})\n
 
-      Mozilla)`
+      `
     )
     }
 }
