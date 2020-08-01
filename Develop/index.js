@@ -1,6 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-// const generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+const path = require("path");
 
 // array of questions for user
 const questions = [
@@ -66,22 +67,26 @@ const questions = [
 //console.log(response)
 
 // function to write README file
-// function writeToFile(fileName, data) {
-// }
+ function writeToFile(fileName, data) {
+     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+ }
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then((response)=>{
+    inquirer.prompt(questions)
+    .then((response) => {
+        console.log("Creating README");
+        writeToFile("README.md", generateMarkdown({...response}))
 // this will Create the first line and main header for the repo (that is what the "# " is for) using the users resonse to RepoName
-fs.appendFileSync("README.md", ("# " + response.repoName )+ '\n', function(err) { 
+// fs.appendFileSync("README.md", ("# " + response.repoName )+ '\n', function(err) { 
 
-    if (err) { 
-    console.log(err)
-    }
-    else {
-    console.log("Success")
-    }
-});
+//     if (err) { 
+//     console.log(err)
+//     }
+//     else {
+//     console.log("Success")
+//     }
+// });
 });
 }  
 // function call to initialize program

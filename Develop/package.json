@@ -9,6 +9,7 @@
   "author": "Sarah Abouelela",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7"
   }
 }
