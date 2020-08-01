@@ -1,16 +1,16 @@
-# ReadMe Generator
+# README Generator
 
   ## Description
-  hhhh
+  This is a simple generator for a readme file.
 
   ## GitHub Name
-  abouelelas
+  Abouelelas
 
   ## Installation
-  init
+  mpm install, yarn install and packages
 
   ## Instructions
-  none
+  User will run application in terminal and answer specific questions to generate the readme file
 
   ## Issues
   none
@@ -19,3 +19,4 @@
   none
 
 
+# README Generator

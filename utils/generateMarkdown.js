@@ -12,23 +12,23 @@ function createLicense(license) {
 function generateMarkdown(data) {
   return `# ${data.repoName}
 
-  ## Description
-  ${data.description}
+## Description
+${data.description}
 
-  ## GitHub Name
-  ${data.gitHubName}
+## GitHub Name
+${data.gitHubName}
 
-  ## Installation
-  ${data.installApp}
+## Installation
+${data.installApp}
 
-  ## Instructions
-  ${data.appInstructions}
+## Instructions
+${data.appInstructions}
 
-  ## Issues
-  ${data.appIssuesAndCont}
+## Issues
+${data.appIssuesAndCont}
 
-  ## Contributers
-  ${data.contributors}
+## Contributers
+${data.contributors}
 
 
 `;

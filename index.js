@@ -51,7 +51,7 @@ const questions = [
  // THIS SHOULD BE USED FOR A BADGE. 
     {
         type: 'input',
-        message: 'What license they would you  like to use? (Ex: MIT, GPL 3.0) If you do not wish to use a license type "none" ',
+        message: 'What license would you like to use? (Ex: MIT, GPL 3.0) If you do not wish to use a license type "none" ',
         name: 'license',
      
     },
@@ -78,15 +78,15 @@ function init() {
         console.log("Creating README");
         writeToFile("README.md", generateMarkdown({...response}))
 // this will Create the first line and main header for the repo (that is what the "# " is for) using the users resonse to RepoName
-// fs.appendFileSync("README.md", ("# " + response.repoName )+ '\n', function(err) { 
+fs.appendFileSync("README.md", ("# " + response.repoName )+ '\n', function(err) { 
 
-//     if (err) { 
-//     console.log(err)
-//     }
-//     else {
-//     console.log("Success")
-//     }
-// });
+    if (err) { 
+    console.log(err)
+    }
+    else {
+    console.log("Success")
+    }
+});
 });
 }  
 // function call to initialize program
