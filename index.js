@@ -43,8 +43,8 @@ const questions = [
     // How would a user of this application report an issue, or make a contribution to it? 
     {
         type: 'input',
-        message: 'Would you like you users to be able to report issues or contribute to this project? add instructions here.',
-        name: 'appIssuesAndCont',
+        message: 'What is your email?',
+        name: 'appEmail',
      
     },
  // promts what license they would you  like to use? 

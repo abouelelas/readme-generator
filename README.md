@@ -1,22 +1,22 @@
-# readme generator
+# README Generator
 
 ## Description
-It is an application that generates a simple readme file
+This is an application that generates a readme file using node
 
 ## GitHub Name
-abouelelas
+Abouelelas
 
 ## Installation
-user needs to install packages in terminal such as, yarn and inquirer
+User needs to install packages such as inquirer and yarn 
 
 ## Instructions
-user will run node index in terminal and answer prompted questions
+User will need to run node index in terminal to deploy application and answer prompted questions
 
-## Issues
-none
+## Email
+abouelelas@gmail.com
 
 ## Contributers
 none
 
 
-# readme generator
+# README Generator

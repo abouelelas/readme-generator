@@ -25,8 +25,8 @@ ${data.installApp}
 ## Instructions
 ${data.appInstructions}
 
-## Issues
-${data.appIssuesAndCont}
+## Email
+${data.appEmail}
 
 ## Contributers
 ${data.contributors}
