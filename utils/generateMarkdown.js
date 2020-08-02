@@ -2,7 +2,7 @@
 function createLicense(license) {
   if (license !== "None") {
     return (
-      ` return [# ${data.repoName} ![${data.repoName}](https://img.shields.io/github/license/${data.gitHubName}/${data.repoName})\n
+      ` return [# ${data.repoName} ![${data.title}](https://img.shields.io/github/license/${data.user}/${data.title})\n
 
       `
     )
